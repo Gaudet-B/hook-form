@@ -1,0 +1,40 @@
+
+.formComponent {
+    display: flex   ;
+    margin: 16px;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 5px;
+    background-color: lightgray;
+    color: rgb(95, 95, 95);
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 60%;
+    align-items: center;
+}
+
+.formButton {
+    margin: 20px;
+    color: rgb(95, 95, 95);
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 35px;
+    width: 90px;
+}
+
+.formInput {
+    margin-left: 5px;
+    border: 2px lightgray;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.formData {
+    text-align: center;
+}
